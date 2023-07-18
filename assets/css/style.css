@@ -527,8 +527,8 @@ article.container::before {
 .forecast-card .title-2 {
   margin-block-end: 0;
 }
-.card-item,
-.icon-wrapper {
+.forecast-card .card-item,
+.forecast-card .icon-wrapper {
   display: flex;
   align-items: center;
 }
