@@ -665,3 +665,26 @@ article.container::before {
   margin-inline: auto;
   margin-block: 12px;
 }
+
+/* Footer */
+.footer,
+.footer .body-3:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer .body-3:last-child {
+  gap: 6px;
+}
+.footer {
+  color: var(--on-surface-variant);
+  text-align: center;
+  gap: 12px 24px;
+  margin-block-start: 28px;
+  display: none;
+}
+
+.fade-in .footer {
+  display: flex;
+}
