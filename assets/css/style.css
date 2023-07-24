@@ -1,13 +1,41 @@
 @font-face {
-  font-family: "Aileron";
-  src: url(../fonts/Aileron/Aileron-UltraLight.otf) format("opentype")
-    url(../fonts/Aileron/Aileron-Light.otf) format("opentype")
-    url(../fonts/Aileron/Aileron-Thin.otf) format("opentype")
-    url(../fonts/Aileron/Aileron-Regular.otf) format("opentype")
-    url(../fonts/Aileron/Aileron-SemiBold.otf) format("opentype")
-    url(../fonts/Aileron/Aileron-Bold.otf) format("opentype")
-    url(../fonts/Aileron/Aileron-Black.otf) format("opentype")
-    url(../fonts/Aileron/Aileron-Heavy.otf) format("opentype");
+  font-family: "Aileron-UltraLight";
+  src: url(../fonts/Aileron/Aileron-UltraLight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Aileron-Light";
+  src: url(../fonts/Aileron/Aileron-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Aileron-Thin";
+  src: url(../fonts/Aileron/Aileron-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Aileron-Regular";
+  src: url(../fonts/Aileron/Aileron-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Aileron-SemiBold";
+  src: url(../fonts/Aileron/Aileron-SemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Aileron-Bold";
+  src: url(../fonts/Aileron/Aileron-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Aileron-Black";
+  src: url(../fonts/Aileron/Aileron-Black.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Aileron-Heavy";
+  src: url(../fonts/Aileron/Aileron-Heavy.otf) format("opentype");
 }
 
 /* Custom Property */
@@ -53,7 +81,7 @@
 
   /* Typography */
   /* Font-Family */
-  --ff-alieron: "Aileron", sans-serif;
+  --ff-alieron: "Aileron-Regular", sans-serif;
   /* Font-Size */
   --heading: 5.6rem;
   --title-1: 2rem;
